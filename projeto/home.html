@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../tailwind.css">
+</head>
+<body class="bg-gray-50">
+    <header class="flex flex-row justify-between border-b shadow-md py-5 items-center">
+        <h1 class="px-9 text-blue-700 text-3xl font-black uppercase">Logo</h1>
+        <nav>
+            <ul class="flex flex-row text-gray-500 space-x-5">
+                <a href="#" class="text-sm text-gray-600 hover:underline hover:text-gray-800">
+                    <li>Como reservar</li>
+                </a>
+                <a href="#" class="text-sm text-gray-600 hover:underline hover:text-gray-800">
+                    <li>Sobre nós</li>
+                </a>
+                <a href="#" class="text-sm text-gray-600 hover:underline hover:text-gray-800">
+                    <li>Informações</li>
+                </a>
+                <a href="#" class="text-sm text-gray-600 hover:underline hover:text-gray-800 pr-7">
+                    <li>Contato</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main class="bg-black">
+        <div style=" background-image: url('./img/principal.webp'); min-height: 650px">
+            <div class="relative flex flex-col container mx-auto px-4 h-full items-center justify-center">
+                <hgroup class="text-center mb-7">
+                    <h1 class="text-gray-900 font-black text-6xl mt-48">Onde você procura ir ?</h1> 
+                    <h3 class="text-white font-light text-3xl tracking-widest">Escolha o estado e a cidade para achar os melhores resorts.</h3>
+                </hgroup>
+                <div class="flex flex-row">
+                    <form action="" class="space-x-4">
+                        <select name="" id="" class="bg-gray-50 px-3 py-3 rounded focus:outline-none">
+                           <option value="">Escolha o estado</option> 
+                        </select>
+                        <select name="" id="" class="bg-gray-50 px-3 py-3 rounded focus:outline-none">
+                           <option value="">Escolha a cidade</option> 
+                        </select>
+                        <button class="bg-yellow-500 font-medium px-3 h-11 rounded">Pesquisar Resorts</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
